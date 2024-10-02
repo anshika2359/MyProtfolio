@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Portfolio </title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+
+  <!-- fevicon -->
+    <link rel="icon" href="assets/fevicon.png" type="image/png">
+
+  <!-- meta tags  and images-->
+
+  <meta name="description" content="This is a portfolio website of Anshika's portfolio. It is a simple and clean design with a focus on showcasing her skills and experiences.">
+  <meta name="keywords" content="Anshika, Anshika's, portfolio, frontend, developer, html, css, javascript, react, node, express, mongodb, postgresql, git, github, linkedin, twitter, design, ux, ui, ui/ux, user experience, user interface, user interface design, web design, web development, webdesign, webdevelopment, portfolio website, portfolio website template, portfolio website template">
+
+  <meta property="og:title" content="Anshika's Portfolio">
+  <meta property="og:description" content="This is a portfolio website of Anshika's portfolio. It is a simple and clean design with a focus on showcasing her skills and experiences.">
+  <meta property="og:image" content="assets/fevicon.png">
+  <meta property="og:url" content="https://Anshika-portfolio.netlify.app/">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Anshika's Portfolio">
+  <meta name="twitter:description" content="This is a portfolio website of Anshika's portfolio. It is a simple and clean design with a focus on showcasing her skills and experiences.">
+  <meta name="twitter:image" content="assets/og-image.png">
+
+  <script>
+    AOS.init();
+  </script>
+
+</head>
+
+<body>
+  <header>
+    <nav id="desktop-nav">
+      <div class="logo">Anshika's Portfolio</div>
+      <ul class="nav-links">
+        <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+        <li><a href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
+        <li><a href="#projects"><i class="fas fa-code"></i> Projects</a></li>
+        <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+
+        <button id="theme-toggle" class="theme-toggle-btn">
+          <i class="fas fa-sun"></i>
+      </button>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+
+  <main>
+    <section id="profile">
+      <div class="profile-content">
+        <div class="profile-text" data-aos="fade-right">
+          <h1>Hello, I'm <span class="highlight">Anshika</span></h1>
+          <h2>Frontend Developer</h2>
+          <div class="typewriter">
+            <p>Crafting beautiful web experiences</p>
+          </div>
+          <div class="cta-buttons">
+            <a href="assets/blank" class="btn btn-primary">Download CV <i class="lni lni-download"></i></a>
+            <a href="#contact" class="btn btn-secondary">Contact Me </a>
+          </div>
+        </div>
+        <div class="profile-image" data-aos="fade-left">
+          <img src="assets/anshika.jpeg" alt="Anshika's profile picture" />
+        </div>
+      </div>
+      <div class="social-links" data-aos="fade-up">
+        <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2 class="section-title" data-aos="fade-up">About Me</h2>
+      <p class="sub-head">I am a Frontend Developer with a passion for creating user-friendly and visually appealing
+
+
+      <div class="about-content">
+        <div class="about-text" data-aos="fade-right">
+          <p>
+            A little more about me. I'm a Frontend Developer with a passion for creating user-friendly and visually, I
+            have a strong background in HTML, CSS, and JavaScript, and I'm always looking for new challenges to push
+            myself to new heights. I'm also a big fan of open-source projects and contributing to them whenever I can.
+          </p>
+          <div class="skills-progress">
+            <div class="skill">
+              <span>HTML/CSS</span>
+              <div class="progress-bar">
+                <div class="progress" style="width: 90%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>JavaScript</span>
+              <div class="progress-bar">
+                <div class="progress" style="width: 85%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>React</span>
+              <div class="progress-bar">
+                <div class="progress" style="width: 80%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-stats" data-aos="fade-left">
+          <div class="stat-item">
+            <i class="fas fa-code"></i>
+            <h3>Experience</h3>
+            <p>Frontend Development</p>
+          </div>
+          <div class="stat-item">
+            <i class="fas fa-graduation-cap"></i>
+            <h3>Education</h3>
+            <p>BCA Bachelor's Degree</p>
+          </div>
+          <div class="stat-item">
+            <i class="fas fa-award"></i>
+            <h3>Awards</h3>
+            <p>Best Developer 2024</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2 class="section-title" data-aos="fade-up">Experience</h2>
+      <p class="sub-head">I have worked in various roles in the past. I have also worked as a freelancer in the past.
+      </p>
+
+      <div class="skills-container">
+        <div class="skill-category" data-aos="fade-right">
+          <h3>Frontend Development</h3>
+          <ul class="skills-list">
+            <li><i class="fab fa-html5"></i> HTML</li>
+            <li><i class="fab fa-css3-alt"></i> CSS</li>
+            <li><i class="fab fa-sass"></i> SASS</li>
+            <li><i class="fab fa-js"></i> JavaScript</li>
+            <li><i class="fab fa-react"></i> React</li>
+          </ul>
+        </div>
+        <div class="skill-category" data-aos="fade-left">
+          <h3>Backend Development</h3>
+          <ul class="skills-list">
+            <li><i class="fas fa-database"></i> PostgreSQL</li>
+            <li><i class="fab fa-node"></i> Node.js</li>
+            <li><i class="fab fa-node-js"></i> Express.js</li>
+            <li><i class="fab fa-git-alt"></i> Git</li>
+          </ul>
+        </div>
+      </div>
+      <div class="timeline" data-aos="fade-up">
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Frontend Developer</h3>
+            <p>ABC Tech, 2021 - Present</p>
+            <p>Developed responsive web applications using React and modern CSS frameworks.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Web Design Intern</h3>
+            <p>XYZ Agency, 2020 - 2021</p>
+            <p>Assisted in creating visually appealing websites and improved UX/UI designs.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2 class="section-title" data-aos="fade-up">Projects</h2>
+      <p class="sub-head">My projects are mostly in React and JavaScript. I have also worked on some projects in Angular
+        and Node.js.</p>
+
+      <div class="projects-grid">
+        <div class="project-card" data-aos="flip-left">
+          <img src="assets/project-1.png" alt="Project 1" />
+          <h3>Project One</h3>
+          <p>Short project description goes here.</p>
+          <div class="project-links">
+            <a href="https://github.com/" class="btn btn-sm">GitHub</a>
+            <a href="https://github.com/" class="btn btn-sm">Live Demo</a>
+          </div>
+        </div>
+        <div class="project-card" data-aos="flip-up">
+          <img src="assets/project-2.png" alt="Project 2" />
+          <h3>Project Two</h3>
+          <p>Another amazing project description.</p>
+          <div class="project-links">
+            <a href="https://github.com/" class="btn btn-sm">GitHub</a>
+            <a href="https://github.com/" class="btn btn-sm">Live Demo</a>
+          </div>
+        </div>
+        <div class="project-card" data-aos="flip-right">
+          <img src="assets/project-3.png" alt="Project 3" />
+          <h3>Project Three</h3>
+          <p>Yet another fantastic project.</p>
+          <div class="project-links">
+            <a href="https://github.com/" class="btn btn-sm">GitHub</a>
+            <a href="https://github.com/" class="btn btn-sm">Live Demo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="section-title" data-aos="fade-up">Contact Me</h2>
+      <div class="contact-content">
+        <form class="contact-form" data-aos="fade-right">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+        </form>
+        <div class="contact-info" data-aos="fade-left">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <span>example@gmail.com</span>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-linkedin"></i>
+            <span>LinkedIn Profile</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>New York, NY</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Anshika. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
